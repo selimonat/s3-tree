@@ -46,5 +46,5 @@ PREFIX/
     │         ├── subfolder2
     │         └── subfolder3
     ├── Folder 2
-
+   ...
 ```
