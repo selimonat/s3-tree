@@ -12,6 +12,9 @@ Python > 3.9
 
 ```make setup.env``` to create a virtual environment and install dev dependencies.
 
+Or ```pip install dist/s3_tree-0.1.0-py3-none-any.whl```
+
+
 # Usage
 
 ```

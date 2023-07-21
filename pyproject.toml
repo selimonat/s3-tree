@@ -9,9 +9,23 @@ classifiers = ["Operating System :: MacOS",  "Operating System :: POSIX :: Linux
 python = ">3.9,<3.12"
 boto3 = "^1.28.8"
 typer = "^0.9.0"
+setuptools = "^68.0.0"
+build = "^0.10.0"
 
 [tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+#requires = ["poetry>=0.12"]
+#build-backend = "poetry.masonry.api"z
+
+[project.scripts]
+testtest = "s3_tree.s3_tree:app"
+
+[project]
+name = "s3_tree"
+version = "0.1.0"
+description = ""
+authors = [{name="Selim Onat"}]
+classifiers = ["Operating System :: MacOS",  "Operating System :: POSIX :: Linux"]
