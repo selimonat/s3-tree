@@ -5,6 +5,7 @@ Print an S3 bucket as a hierarchical tree.
 # Runtime Dependencies
 
 `tree` (brew install tree)
+
 Python > 3.9
 
 # Installation
