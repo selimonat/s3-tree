@@ -10,10 +10,11 @@ Python > 3.9
 
 # Installation
 
-```make setup.env``` to create a virtual environment and install dev dependencies.
+```make setup.env``` to create the dev virtual environment and install dev dependencies.
 
-To compile and install the  ```pip install dist/s3_tree-0.1.0-py3-none-any.whl```
+Alternatively, clone this repo and install it  ```pip install .``` This will also install the `s3-tree` command as a console entry-point.
 
+Or directly install it from GitHub: ```python -m pip install \"s3-tree @ git+https://git@github.com/selimonat/s3-tree.git" ```
 
 # Usage
 
