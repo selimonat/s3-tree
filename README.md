@@ -5,6 +5,11 @@ Print an S3 bucket as a hierarchical tree.
 # Runtime Dependencies
 
 `tree` (brew install tree)
+Python > 3.9
+
+# Installation
+
+```make setup.env``` to create a virtual environment and install dev dependencies.
 
 # Usage
 
@@ -26,3 +31,20 @@ Arguments:
   [VERBOSE]            Verbose or not  [default: False]
 ```
 
+# Example
+
+Call the repo folder `s3-tree`:
+```python s3-tree TENANT_NAME MY_BUCKET PREFIX/```
+
+to get:
+```
+PREFIX/
+    ├── Folder 1
+    │         ├── subfolder1
+    │         │         ├── subfolder X
+    │         │         └── subfolder Y
+    │         ├── subfolder2
+    │         └── subfolder3
+    ├── Folder 2
+
+```
