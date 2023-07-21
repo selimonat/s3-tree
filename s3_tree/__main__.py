@@ -1,5 +1,5 @@
 import typer
-from s3_tree.core import s3_tree
+from s3_tree import s3_tree
 import boto3
 import os
 from typing import Annotated
@@ -8,7 +8,7 @@ app = typer.Typer(add_completion=True)
 
 
 @app.command()
-def s3tree(profile_name: Annotated[str, typer.Argument(help="AWS profile name")],
+def main(profile_name: Annotated[str, typer.Argument(help="AWS profile name")],
            bucket_name: Annotated[str, typer.Argument(help="Bucket name")],
            prefix: Annotated[str, typer.Argument(help="Prefix to filter")],
            max_depth: Annotated[int, typer.Argument(help="Max depth to traverse")] = 3,
