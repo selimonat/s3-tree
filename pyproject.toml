@@ -27,3 +27,9 @@ version = "0.1.0"
 description = ""
 authors = [{name="Selim Onat"}]
 classifiers = ["Operating System :: MacOS",  "Operating System :: POSIX :: Linux"]
+requires-python = ">=3.9,<3.12"
+dependencies = [
+    {name="boto3",version="^1.28.8"},
+    {name="typer",version="^0.9.0"},
+    {name="setuptools",version="^68.0.0"},
+    {name="build",version="^0.10.0"}]
