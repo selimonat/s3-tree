@@ -15,7 +15,7 @@ build = "^0.10.0"
 [tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=68.0"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
@@ -29,7 +29,8 @@ authors = [{name="Selim Onat"}]
 classifiers = ["Operating System :: MacOS",  "Operating System :: POSIX :: Linux"]
 requires-python = ">=3.9,<3.12"
 dependencies = [
-    {name="boto3",version="^1.28.8"},
-    {name="typer",version="^0.9.0"},
-    {name="setuptools",version="^68.0.0"},
-    {name="build",version="^0.10.0"}]
+    "boto3==1.28.8",
+    "typer==0.9.0",
+    "setuptools==68.0.0",
+    "build==0.10.0"
+    ]
