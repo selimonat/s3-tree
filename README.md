@@ -34,7 +34,6 @@ Arguments:
 
 # Example
 
-Call the repo folder `s3-tree`:
 ```python s3-tree TENANT_NAME MY_BUCKET PREFIX/```
 
 to get:

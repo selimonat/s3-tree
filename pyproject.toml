@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "s3-tree"
+name = "s3_tree"
 version = "0.1.0"
 description = ""
 authors = ["Selim Onat"]

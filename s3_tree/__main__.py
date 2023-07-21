@@ -1,5 +1,5 @@
 import typer
-from s3_tree import s3_tree
+from s3_tree.core import s3_tree
 import boto3
 import os
 from typing import Annotated
