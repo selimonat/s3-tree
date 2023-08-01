@@ -8,7 +8,7 @@ setup(
     author_email='onatselim@gmail.com',
     entry_points={
         'console_scripts': [
-            'testtest = s3_tree.__main__:app'
+            's3-tree = s3_tree.__main__:app'
         ]
     }
 )
